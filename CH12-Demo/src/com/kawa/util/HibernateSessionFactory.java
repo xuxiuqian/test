@@ -31,7 +31,7 @@ public class HibernateSessionFactory {
 			sessionFactory = configuration.buildSessionFactory();
 		} catch (Exception e) {
 			System.err
-					.println("%%%% Erroradmin12345678901 Creating SessionFactory %%%%");
+					.println("%%%% Erroradmin Creating SessionFactory %%%%");
 			e.printStackTrace();
 		}
     }
